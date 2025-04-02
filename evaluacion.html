@@ -4,122 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página inicial</title>
+    <title>Página inicial de la prueba</title>
     <link rel="stylesheet" href="./public/css/styles.css">
     <style>
-        table{
-            border: 2px solid black;
-            border-collapse: collapse;
-            width: 100%;
-        }
+        
         td, th{
             border: 2px solid black;
             padding: 10px;
             text-align: center;
         }
+        
+        .texto-sobre-imagen{
+            position: absolute;
+            top: 15%; 
+            left: 10%; 
+            transform: translate(-50%, -50%); 
+            color: rgb(18, 3, 3); 
+            font-size: 20px; 
+            font-weight: bold; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+            }
     </style>
 </head>
 
 <body>
-    <div id="div_negro">
-        <table class="tabla">
-            <thead>
-                <tr>
-                    <th>
-                        Personas
-                    </th>
-                    <th>
-                        microempresas
-                    </th>
-                    <th>
-                        pequeñas empresas
-                    </th>
-                    <th>
-                        empresas
-                    </th>
-                    <th>
-                        i. publicas
-                    </th>
-                    <th>
-                        o. sociedad civil
-                    </th>
-                    <th>
-                        corporativo 
-                    </th>
-                    <th></th>
-                    <th></th>
-                    <th>
-                        emergencias
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>12.345.678-9</td>
-                    <td>Mario Andrés</td>
-                    <td>Cares</td>
-                    <td>Cabezas</td>
-                </tr>
-                <tr>
-                    <td>9.876.543-2</td>
-                    <td>Pedro Pablo</td>
-                    <td>Pérez</td>
-                    <td>Pereira</td>
-                </tr>
-                <tr>
-                    <td>1-9</td>
-                    <td>Juan Antonio</td>
-                    <td>Visual</td>
-                    <td>Code</td>
-                </tr>
-            </tbody>
-            <tfoot></tfoot>
-        </table>
+    <h1>trabajo franco fajardo</h1>
+    <img src="https://us.123rf.com/450wm/pytyczech/pytyczech1802/pytyczech180200242/96360239-icono-de-línea-de-tres-barras.jpg" width="40px" height="40px" alt="logo">
+    <img src="https://es.logodownload.org/wp-content/uploads/2018/09/youtube-logo-81.png" width="70px%" height="40px" alt="logo youtube">
+    <img src="https://wallpapers.com/images/hd/blank-white-landscape-7sn5o1woonmklx1h.jpg" width="70px%" height="40px" alt="logo youtube">
+    <img src="https://wallpapers.com/images/hd/blank-white-landscape-7sn5o1woonmklx1h.jpg" width="70px%" height="40px" alt="logo youtube">
+    <img src="https://wallpapers.com/images/hd/blank-white-landscape-7sn5o1woonmklx1h.jpg" width="70px%" height="40px" alt="logo youtube">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT72_biAwswG_U1Xi5LZGBa8fzYJzg1K_PXSXvDZQyWPGP7eRM9T8aye_oZ_YTvQMMflw&usqp=CAU" width="200px%" height="40px%" alt="logo youtube">
+    <img src="https://e7.pngegg.com/pngimages/399/906/png-clipart-app-store-computer-software-google-play-radio-button-microphone-logo.png" width="70px%" height="40px" alt="logo youtube">
+    <img src="https://wallpapers.com/images/hd/blank-white-landscape-7sn5o1woonmklx1h.jpg" width="70px%" height="40px" alt="logo youtube">
+    <img src="https://wallpapers.com/images/hd/blank-white-landscape-7sn5o1woonmklx1h.jpg" width="70px%" height="40px" alt="logo youtube">
+    <img src="https://wallpapers.com/images/hd/blank-white-landscape-7sn5o1woonmklx1h.jpg" width="70px%" height="40px" alt="logo youtube">
+    <img src="" width="70px%" height="40px" alt="logo youtube">
+    <img src="data:image/png;base64,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" width="70px%" height="40px" alt="logo youtube">
 
-        <table class="">
+        <table class="tabla">
+    <div id="div_negro">
             <thead>
                 <tr>
                     <th>
-                        Rut Alumno
+                        <div class="contenedor imagen">
+                            <img src="https://i.pinimg.com/236x/b3/cc/d5/b3ccd57b054a73af1a0d281265b54ec8.jpg" width="70px" height="40px" alt="emergencias">
+                            <div class="texto-sobre-imagen"> principal </div>
+                        </div>
                     </th>
                     <th>
-                        Nombres
+                        todos
                     </th>
                     <th>
-                        A. Paterno
+                        musica
                     </th>
                     <th>
-                        A. Materno
+                        lista de reproduccion
+                    </th>
+                    <th>
+                        assasin cred
+                    </th>
+                    <th>
+                        videojuegos
+                    </th>
+                    <th>
+                        mixes 
+                    </th>
+                    <th>
+                        dc comics
+                    </th>
+                    <th>
+                        comedias
+                    </th>
+                    <th>
+                        musica del clacisismo
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>12.345.678-9</td>
-                    <td>Mario Andrés</td>
-                    <td>Cares</td>
-                    <td>Cabezas</td>
+                    <td colspan="1">
+                        <div class="contenedor imagen">
+                            <img src="https://i.pinimg.com/736x/17/d2/18/17d21878c22fe49e7e4752eecaa36541.jpg" width="70px" height="40px" alt="emergencias">
+                            <div class="texto-sobre-imagen"></div>
+                        </div>
+                    </td>
                 </tr>
-                <tr>
-                    <td>9.876.543-2</td>
-                    <td>Pedro Pablo</td>
-                    <td>Pérez</td>
-                    <td>Pereira</td>
-                </tr>
-                <tr>
-                    <td>1-9</td>
-                    <td>Juan Antonio</td>
-                    <td>Visual</td>
-                    <td>Code</td>
-                </tr>
+                
             </tbody>
             <tfoot></tfoot>
         </table>
     </div>
-
+    
     
     <br />
     <hr />
+
+    <a href="https://www.youtube.com" target="_blank">tocame </a>
+
 </body>
 
 </html>
