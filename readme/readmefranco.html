@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera Evaluación Programación Web 2025</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        td, th{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="tabla-section">
+        <h2>Tabla de Datos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Lane</th>
+                    <th>% Odiabilidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ashe</td>
+                    <td>Bot</td>
+                    <td>80%</td>
+                </tr>
+                <tr>
+                    <td>Yi</td>
+                    <td>Jungla</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Mel</td>
+                    <td>Bot</td>
+                    <td>500%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="form-section">
+        <h2>Formulario de Registro</h2>
+        <form action="https://formulario.santotomas.cl/programacionWeb/2025" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required maxlength="15" minlength="3">
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" required minlength="8">
+            </div>
+            <div class="form-group">
+                <label for="ciudad">Ciudad de Residencia:</label>
+                <select id="ciudad" name="ciudad" required>
+                    <option value="Iquique">Iquique</option>
+                    <option value="Antofagasta">Antofagasta</option>
+                    <option value="Copiapó">Copiapó</option>
+                    <option value="La Serena">La Serena</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Estación Preferida:</label>
+                <div>
+                    <input type="radio" id="invierno" name="estacion" value="Invierno" required>
+                    <label for="invierno">Invierno</label>
+                    <input type="radio" id="primavera" name="estacion" value="Primavera" required>
+                    <label for="primavera">Primavera</label>
+                    <input type="radio" id="verano" name="estacion" value="Verano" required>
+                    <label for="verano">Verano</label>
+                    <input type="radio" id="otono" name="estacion" value="Otoño" required>
+                    <label for="otono">Otoño</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Frutas Favoritas:</label>
+                <div>
+                    <input type="checkbox" id="manzana" name="frutas" value="Manzana">
+                    <label for="manzana">Manzana</label>
+                    <input type="checkbox" id="naranja" name="frutas" value="Naranja">
+                    <label for="naranja">Naranja</label>
+                    <input type="checkbox" id="pera" name="frutas" value="Pera">
+                    <label for="pera">Pera</label>
+                    <input type="checkbox" id="tomate" name="frutas" value="Tomate">
+                    <label for="tomate">Tomate</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
